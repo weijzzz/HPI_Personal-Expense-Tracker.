@@ -49,7 +49,7 @@ def view_expenses(expenses_list):
         print(f"{i+1}. {desc:<20} | {cat:<15} | ${amt:>10.2f}")
         total_spending += amt
         
-    print("-" * 50) # Prints a horizontal line
+    print("-" * 50)
     print(f"TOTAL SPENDING:                ${total_spending:>10.2f}")
 
 def view_summary(expenses_list):
@@ -90,4 +90,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()w
+    main()
