@@ -73,6 +73,7 @@ def view_summary(expenses_list):
         print(f"{category:<15} | ${total:>10.2f}")
 
 def main():
+    expenses = []
     while True:
         choice = show_menu()
         
